@@ -1,0 +1,56 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	setlocale(LC_ALL, "rus");
+	double a, b, p, s, d, l, q ,w, sr, z, x, c, v, h, j, k, m;
+	const double pi=3.14;
+	cout << "Задание 1" << endl;
+	cout << "Введите ширину" << endl;
+	cin >> a;
+	cout << "Введите длинну" << endl;
+	cin >> b;
+	p = 2 * (a + b);
+	s = a * b;
+	cout << "Площадь равна " << s << endl;
+	cout << "Периметр равен " << p << endl;
+
+	cout << "Задание 2" << endl;
+	cout << "Введите диаметр " << endl;
+	cin >> d;
+	l = pi * d;
+	cout << "Длинна окружности равна "<< l;
+
+	cout << "Задание 3" << endl;
+	cout << "Введите числа" << endl;
+	cin >> q >> w;
+	sr = (q + w) / 2;
+	cout << "Среднее арифметическое двух чисел равно " << sr << endl;
+
+	cout << "Задание 4" << endl;
+	cout << "Введите два ненулевых числа" << endl;
+	cin >> h >> j;
+	z = h * h + j * j;
+	x = h * h - j * j;
+	c = (h * h) * (j * j);
+	v = (h * h) / (j * j);
+	cout << "Сумма квадратов равна " << z << endl;
+	cout << "Разность квадратов равна " << x << endl;
+	cout << "Произведение квадратов равна " << c << endl;
+	cout << "Частное квадратов равна " << v << endl;
+
+	cout << "Задание 5" << endl;
+	cout << "Введите два числа" << endl;
+	cin >> k >> m;
+	z = abs (k) + abs (m);
+	x = abs(k) - abs(m);
+	c = abs(k) * abs(m);
+	v = abs(k) / abs(m);
+	cout << "Сумма  равна " << z << endl;
+	cout << "Разность  равна " << x << endl;
+	cout << "Произведение равно " << c << endl;
+	cout << "Частное равно " << v << endl;
+
+return 0;
+}
