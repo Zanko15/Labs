@@ -5,7 +5,7 @@ int main()
 	setlocale(LC_ALL, "ru");
 	int  a, b, c;
 	double  x, y, A, S, D, F;
-	cout << "Первый номер" << endl;
+	cout << "Задание 1" << endl;
 	cout << "Введите переменные в порядке a, b " << endl;
 	cin >> a >> b;
 	a = a + b;
@@ -14,8 +14,8 @@ int main()
 	cout << a << b;
 	cout << "" << endl;
 
-	cout << "Второй номер" << endl;
-	cout << "введите переменные в порядке a, b ,c" << endl;
+	cout << "Задание 2" << endl;
+	cout << "Введите переменные в порядке a, b ,c" << endl;
 	cin >> a >> c >> b;
 	a = a ^ c;
 	c = a ^ c;//a
@@ -26,8 +26,8 @@ int main()
 	cout << a << b << c << endl;
 	cout << "" << endl;
 
-	cout << "третий номер" << endl;
-	cout << "введите переменные в порядке a, b ,c" << endl;
+	cout << "Задание 3" << endl;
+	cout << "Введите переменные в порядке a, b ,c" << endl;
 	cin >> a >> b >> c;
 	a = a ^ c;
 	c = a ^ c;//a
@@ -38,35 +38,35 @@ int main()
 	cout << a << b << c << endl;
 	cout << "" << endl;
 
-	cout << "четвертый номер" << endl;
+	cout << "Задание 4" << endl;
 	cout << "введите x" << endl;
 	cin >> x;
 	y = 3 * pow(x, 6) - 6 * pow(x, 2) - 7;
-	cout << "ответ " << y << endl;
+	cout << "Ответ: " << y << endl;
 	cout << "" << endl;
 
-	cout << "пятый номер" << endl;
-	cout << "введите x" << endl;
+	cout << "Задание 5" << endl;
+	cout << "Введите x" << endl;
 	cin >> x;
 	y = 4 * pow(x-3, 6) - 7 * pow(x-3, 3) + 2;
-	cout << "ответ " << y << endl;
+	cout << "Ответ: " << y << endl;
 	cout << "" << endl;
 
-	cout << "шестой номер" << endl;
-	cout << "введите A" << endl;
+	cout << "Задание 6" << endl;
+	cout << "Введите A" << endl;
 	cin >> A;
 	S = A * A;
 	D = S * S * S;
-	cout << "ответ " << D << endl;
+	cout << "Ответ: " << D << endl;
 	cout << "" << endl;
 
-	cout << "седьмой номер" << endl;
-	cout << "введите A" << endl;
+	cout << "Задание 7" << endl;
+	cout << "Введите A" << endl;
 	cin >> A;
 	S = A * A;
 	D = S * A;
 	F = D * D * D * D * D;
-	cout << "ответ " << F << endl;
+	cout << "Ответ: " << F << endl;
 	cout << "" << endl;
 	return 0;
 }
